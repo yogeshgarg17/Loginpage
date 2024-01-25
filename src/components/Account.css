@@ -1,0 +1,56 @@
+.box{
+    width: 400px;
+    height: 650px;
+    /* border: 1px solid red; */
+    margin: auto;
+}
+.head{
+    margin-left: 10px;
+}
+.inputBox{
+    position: relative;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.inputBox input{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+.inputBox span{
+    position: absolute;
+    top: 0;
+    padding: 10px;
+    font-size: 20px;    
+    transition: 0.5s;
+}
+.inputBox input:valid ~span,
+.inputBox input:focus ~span
+{
+    color: blueviolet;
+    font-weight: 500;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 15px;
+    padding: 0 10px;
+    background: white;
+}
+.label p{
+    font-size: 16px;
+    margin-left: 10px;
+}
+.label input{
+    margin-left: 10px;
+}
+button{
+    width: 90%;
+    background: blueviolet;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 15px;
+    margin-top:80px ;
+}
